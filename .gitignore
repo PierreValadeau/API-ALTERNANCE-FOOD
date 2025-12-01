@@ -1,0 +1,31 @@
+# ========================================
+# ENVIRONMENT FILES (CRITICAL!)
+# ========================================
+# Backend et Frontend .env
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Keep .env.example files
+!backend/.env.example
+!frontend/.env.example
+
+# ========================================
+# OS FILES (tous les OS)
+# ========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+._*
+$RECYCLE.BIN/
+
+# ========================================
+# IDE GLOBAL
+# ========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
