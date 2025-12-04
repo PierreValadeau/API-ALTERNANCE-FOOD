@@ -17,7 +17,8 @@ class Category extends Model
 
     protected $fillable = [
         'name',
-        'photo',
+        'imageUrl',
+        'imagePath',
     ];
 
     public function restaurants(): BelongsToMany

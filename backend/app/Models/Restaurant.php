@@ -22,7 +22,8 @@ class Restaurant extends Model
         'latitude',
         'longitude',
         'rating',
-        'photo',
+        'imageUrl',
+        'imagePath',
         'description',
     ];
 

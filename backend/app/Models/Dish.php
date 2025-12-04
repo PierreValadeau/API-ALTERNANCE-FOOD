@@ -18,7 +18,8 @@ class Dish extends Model
 
     protected $fillable = [
         'name',
-        'photo',
+        'imageUrl',
+        'imagePath',
         'description',
         'price',
         'restaurantId',
