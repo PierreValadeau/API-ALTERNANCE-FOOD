@@ -55,11 +55,11 @@ class DataTest extends Command
             $this->warn('Aucune catégorie trouvée.');
         } else {
             $this->table(
-                ['ID', 'Nom', 'Photo'],
+                ['ID', 'Nom', 'Image URL'],
                 $categories->map(fn($category) => [
                     $category->id,
                     $category->name,
-                    $category->photo ?? 'N/A',
+                    $category->imageUrl ?? 'N/A',
                 ])
             );
         }
