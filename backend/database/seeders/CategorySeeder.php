@@ -13,14 +13,14 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
-            ['name' => 'Pizza', 'photo' => 'pizza.jpg'],
-            ['name' => 'Burger', 'photo' => 'burger.jpg'],
-            ['name' => 'Sushi', 'photo' => 'sushi.jpg'],
-            ['name' => 'Italien', 'photo' => 'italien.jpg'],
-            ['name' => 'Asiatique', 'photo' => 'asiatique.jpg'],
-            ['name' => 'Français', 'photo' => 'francais.jpg'],
-            ['name' => 'Kebab', 'photo' => 'kebab.jpg'],
-            ['name' => 'Healthy', 'photo' => 'healthy.jpg'],
+            ['name' => 'Pizza', 'imageUrl' => 'https://cdn.alternance-food.com/categories/pizza.jpg', 'imagePath' => 'storage/categories/pizza.jpg'],
+            ['name' => 'Burger', 'imageUrl' => 'https://cdn.alternance-food.com/categories/burger.jpg', 'imagePath' => 'storage/categories/burger.jpg'],
+            ['name' => 'Sushi', 'imageUrl' => 'https://cdn.alternance-food.com/categories/sushi.jpg', 'imagePath' => 'storage/categories/sushi.jpg'],
+            ['name' => 'Italien', 'imageUrl' => 'https://cdn.alternance-food.com/categories/italien.jpg', 'imagePath' => 'storage/categories/italien.jpg'],
+            ['name' => 'Asiatique', 'imageUrl' => 'https://cdn.alternance-food.com/categories/asiatique.jpg', 'imagePath' => 'storage/categories/asiatique.jpg'],
+            ['name' => 'Français', 'imageUrl' => 'https://cdn.alternance-food.com/categories/francais.jpg', 'imagePath' => 'storage/categories/francais.jpg'],
+            ['name' => 'Kebab', 'imageUrl' => 'https://cdn.alternance-food.com/categories/kebab.jpg', 'imagePath' => 'storage/categories/kebab.jpg'],
+            ['name' => 'Healthy', 'imageUrl' => 'https://cdn.alternance-food.com/categories/healthy.jpg', 'imagePath' => 'storage/categories/healthy.jpg'],
         ];
 
         foreach ($categories as $category) {
